@@ -2,4 +2,12 @@
     width: 100vw;
     height: 10vh;
     background-color: #34282C;
+    color: #fbfcf8;
+    font-size: xx-large;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 0px 15px;
+    position: sticky;
+    top: 0;
 }

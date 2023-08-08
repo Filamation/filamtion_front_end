@@ -1,5 +1,22 @@
 .ItemGrid {
     width: 100vw;
-    height: 77vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
     background-color: #28282B;
+
+    -ms-overflow-style: none; /* Internet Explorer 10+ */
+    scrollbar-width: none; /* Firefox */
 }
+
+.ItemGrid::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+  }
+
+  @media only screen and (min-width: 767px) and (max-width: 1023px) {
+    .ItemGrid{grid-template-columns: repeat(3, 1fr);}
+  }
+
+  @media only screen and (min-width: 1023px){
+    .ItemGrid{grid-template-columns: repeat(6, 1fr);}
+  }
