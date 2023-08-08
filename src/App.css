@@ -1,0 +1,19 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  background-color: #28282b;
+
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+
+.App::-webkit-scrollbar { 
+  display: none;  /* Safari and Chrome */
+}
+
+.Main-Title {
+  font-family: "HarmondBold";
+  font-size: 5rem;
+  text-align: center;
+  color: #fbfcf8;
+}

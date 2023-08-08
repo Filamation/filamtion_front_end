@@ -1,0 +1,48 @@
+import { FilmItem } from "../models/filmItem.model";
+
+export const films: FilmItem[] = [
+  {
+    id: "abcdef123",
+    title: "Film1",
+    age_rating: "Adult",
+    rating: 8.7,
+    genre: ["Action"],
+    film_type: "Film",
+    likes: 2,
+    dislikes: 1,
+    reviews: [],
+  },
+  {
+    id: "abcdef124",
+    title: "Film2",
+    age_rating: "Everyone",
+    rating: 1.7,
+    genre: ["Comedy","Action"],
+    film_type: "Cartoon",
+    likes: 0,
+    dislikes: 3,
+    reviews: [],
+  },
+  {
+    id: "abcdef125",
+    title: "Film3",
+    age_rating: "Adult",
+    rating: 5.7,
+    genre: ["Comedy","Romance"],
+    film_type: "Film",
+    likes: 1,
+    dislikes: 2,
+    reviews: [],
+  },
+  {
+    id: "abcdef126",
+    title: "Film4",
+    age_rating: "Adult",
+    rating: 10,
+    genre: ["Action","Romance","Commedy"],
+    film_type: "Anime",
+    likes: 3,
+    dislikes: 0,
+    reviews: [],
+  },
+];
