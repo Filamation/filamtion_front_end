@@ -1,4 +1,47 @@
 .Item{
 
-    background: fbfcf8;
+    background: #fbfcf8;
+    opacity: 90%;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+
+    &:hover{
+        opacity: 100%;
+    }
 }
+
+h4{
+    display: flex;
+    justify-content: space-between;
+}
+
+h3{
+    padding: 5px 0px;
+}
+
+button{
+
+    border: 0;
+    padding: 10px;
+    border-radius: 1px;
+    font-weight: bolder;
+
+    &:hover{
+        background-color: #28282B;
+        color: #fbfcf8;
+    }
+
+    &:active{
+        background-color: #0c0c0c;
+        color: #fbfcf8;
+    }
+
+}
+
+.Item img {
+
+    width: 100%;
+
+} 

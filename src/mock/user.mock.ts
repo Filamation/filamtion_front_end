@@ -1,0 +1,73 @@
+import { User } from "../models/user.model";
+
+export const userMock: User[] = [
+  {
+    id: "User1",
+    username: "Username1",
+    email: "username1@gmail.com",
+    full_name: "User Name1",
+    age: 18,
+    favorite_genres: ["Action", "Romance", "Comedy"],
+    favorite_film_type: ["Film"],
+    reviews: [],
+    watched_movie_list: [
+      { film_id: "abcdef123", film_title: "Film1" },
+      { film_id: "abcdef124", film_title: "Film2" },
+      { film_id: "abcdef125", film_title: "Film3" },
+      { film_id: "abcdef126", film_title: "Film4" },
+    ],
+    planed_to_watch_movie_list: [],
+    liked_movie_list: [
+      { film_id: "abcdef123", film_title: "Film1" },
+      { film_id: "abcdef126", film_title: "Film4" },
+    ],
+    disliked_movie_list: [
+      { film_id: "abcdef124", film_title: "Film2" },
+      { film_id: "abcdef125", film_title: "Film3" },
+    ],
+    last_active: new Date(),
+    created: new Date(),
+  },
+  {
+    id: "User2",
+    username: "Username2",
+    email: "username2@gmail.com",
+    full_name: "User Name2",
+    age: 21,
+    favorite_genres: ["Action", "Romance"],
+    favorite_film_type: ["Film", "Anime"],
+    reviews: [],
+    watched_movie_list: [
+      { film_id: "abcdef124", film_title: "Film2" },
+      { film_id: "abcdef125", film_title: "Film3" },
+      { film_id: "abcdef126", film_title: "Film4" },
+    ],
+    planed_to_watch_movie_list: [{ film_id: "abcdef123", film_title: "Film1" }],
+    liked_movie_list: [{ film_id: "abcdef126", film_title: "Film4" }],
+    disliked_movie_list: [
+      { film_id: "abcdef124", film_title: "Film2" },
+      { film_id: "abcdef125", film_title: "Film3" },
+    ],
+    last_active: new Date(),
+    created: new Date(),
+  },
+  {
+    id: "User3",
+    username: "Username3",
+    email: "username3@gmail.com",
+    full_name: "User Name3",
+    age: 8,
+    favorite_genres: ["Action", "Comedy"],
+    favorite_film_type: ["Cartoon", "Anime"],
+    reviews: [],
+    watched_movie_list: [
+      { film_id: "abcdef124", film_title: "Film2" },
+      { film_id: "abcdef126", film_title: "Film4" },
+    ],
+    planed_to_watch_movie_list: [],
+    liked_movie_list: [{ film_id: "abcdef126", film_title: "Film4" }],
+    disliked_movie_list: [{ film_id: "abcdef124", film_title: "Film2" }],
+    last_active: new Date(),
+    created: new Date(),
+  },
+];
